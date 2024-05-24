@@ -1,0 +1,32 @@
+.bookoapp{
+    .section8 {
+        text-align: center;
+        background-color: #ebecec;
+        padding: 59.5px;
+    }
+    
+    .section8 h5 {
+        color: #2B2E34;
+        font-size: 28px;
+    }
+    
+    .section8 p {
+        color: #2B2E34;
+        font-size: 20px;
+        margin: 12px 0px 0px;
+    }
+    
+    .section8 .btn1 {
+        margin: 20px 0px 0px;
+    }
+    .section8 .btn1 .linko{
+        text-decoration: none;
+    }
+    
+    .section8 .btn1 span {
+        background-color: #2b2e34;
+        color: white;
+        padding: 7px 20px;
+        font-size: medium;
+    }
+}

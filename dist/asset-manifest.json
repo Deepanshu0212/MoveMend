@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32a6e60a.css",
+    "main.js": "/static/js/main.c5cf5216.js",
+    "static/media/blog-5.png": "/static/media/blog-5.1fd1d87b2fe8ebb34b19.png",
+    "static/media/Exercise-Physiology.jpg": "/static/media/Exercise-Physiology.7ebde2a8fede76fe8ba0.jpg",
+    "static/media/Clinical-Pilates.jpg": "/static/media/Clinical-Pilates.62873df935e0f4e888f4.jpg",
+    "static/media/remedial-massage.jpg": "/static/media/remedial-massage.647a034bdafc452b6152.jpg",
+    "static/media/blog-3.png": "/static/media/blog-3.4a7fa4b66e713b6004dd.png",
+    "static/media/osteopathy.jpg": "/static/media/osteopathy.b9c88fbfb1805621be0e.jpg",
+    "static/media/Physiotherapy.jpg": "/static/media/Physiotherapy.47440f2d2426e93281ab.jpg",
+    "static/media/Myotherapy.jpg": "/static/media/Myotherapy.811e5c518515b7635c2b.jpg",
+    "static/media/Podiatrist.jpg": "/static/media/Podiatrist.4f7a1368290163b621a1.jpg",
+    "static/media/services-main.jpg": "/static/media/services-main.e48c17c1e00dbeb68432.jpg",
+    "static/media/blog-6.jpeg": "/static/media/blog-6.41bde954730335960593.jpeg",
+    "static/media/blog-2.jpg": "/static/media/blog-2.9ad15ba7aad52fd765c6.jpg",
+    "static/media/blog-4.jpg": "/static/media/blog-4.be57d2947c4b7539819f.jpg",
+    "static/media/blog-1.jpg": "/static/media/blog-1.6e656c4154cebe767f38.jpg",
+    "index.html": "/index.html",
+    "main.32a6e60a.css.map": "/static/css/main.32a6e60a.css.map",
+    "main.c5cf5216.js.map": "/static/js/main.c5cf5216.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32a6e60a.css",
+    "static/js/main.c5cf5216.js"
+  ]
+}

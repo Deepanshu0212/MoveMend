@@ -1,0 +1,9 @@
+footer {
+    background: #2b2e34;
+    color: #ffffff;
+}
+
+footer .nav-link {
+    color: #ffffff !important;
+    text-decoration: none;
+}

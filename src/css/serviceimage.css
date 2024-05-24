@@ -1,0 +1,22 @@
+.servimg{    
+    .imge {
+        background-size: cover !important;
+        height: 250px !important;
+        width: 280px !important;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        transition: background-color 0.7s ease;
+    }
+    
+    .imge:hover {
+        background-image: none !important;
+        background-color: #2b2e34 !important;
+    }
+    
+    .imge h4 {
+        padding: 115px;
+        font-weight: bold;
+        z-index: 10;
+    }   
+}

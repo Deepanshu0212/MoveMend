@@ -1,0 +1,35 @@
+.blogo{
+    .section1 {
+        padding-top: 11vh !important;
+        padding: 1vh;
+        background-color: #ebecec;
+    }
+
+    .section1 .container {
+        max-width: 1200px;
+        background: url(https://www.movebeyond.com.au/wp-content/uploads/2020/07/Beyond-icon-dark-1.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .section1 .heading1 {
+        color: #2B2E34;
+        font-size: 2.3rem;
+        line-height: 1.25;
+    }
+
+    .section1 .buttons a {
+        color: #2b2e34;
+        text-decoration: none;
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+    .a {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-decoration: none;
+    }
+}

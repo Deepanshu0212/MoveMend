@@ -1,0 +1,43 @@
+.servdata{
+    .container {
+        margin-top: 100px;
+    }
+    
+    #content {
+        display: flex;
+        align-items: center;
+    }
+    
+    #main-img img {
+        width: 100%;
+    }
+    
+    .col-md-5 {
+        height: 450px;
+    }
+    
+    .col-md-6 {
+        height: 450px;
+    }
+    
+    
+    @media screen and (max-width:776px) {
+        #content {
+            order: 2;
+        }
+        
+        #main-img {
+            order: 1;
+        }
+        
+        #main-img img {
+            width: 600px;
+        }
+    }
+    
+    @media screen and (max-width:576px) {
+        #main-img img {
+            width: 100%;
+        }
+    }
+}

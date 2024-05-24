@@ -1,0 +1,51 @@
+.blogobox {
+
+    .abc {
+        margin: 20px;
+        width: 370px;
+        height: 400px;
+        background-color: aqua;
+        color: white;
+        font-weight: 300;
+        border-radius: 5px;
+    }
+
+    .abcd h4 {
+        margin-left: 10px;
+        margin-top: 72%;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .abcd .details {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .blog {
+        background-size: center;
+        background-position: cover;
+        background-repeat: repeat;
+        overflow: hidden;
+        transition: opacity 0.3s ease;
+        background-color: #2b2e34;
+    }
+
+    .abcd {
+        opacity: 0;
+        transform: translateY(100%);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        z-index: 2;
+    }
+
+    .blog:hover {
+        background-image: none !important
+    }
+
+    .blog:hover .abcd {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
