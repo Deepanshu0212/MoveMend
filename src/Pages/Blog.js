@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import Blogfilter from '../Components/Blogfilter'
 import blogdata from "../Data/blog"
 import Blogbox from '../Components/Blogbox'
@@ -8,7 +8,16 @@ import Navbar from '../Components/Navbar'
 import Bookappoint from '../Components/Bookappoint'
 import { Link } from "react-router-dom";
 const Blog = () => {
-
+   
+  useEffect(() => {
+    // Ensure any scroll-related issues are handled here
+    document.body.style.overflow = 'auto';
+    document.documentElement.style.overflow = 'auto';
+        document.body.style.margin = '0';
+        document.documentElement.style.margin = '0';
+        document.body.style.padding = '0';
+        document.documentElement.style.padding = '0';
+}, []);
   const [filter, setfilter] = useState("Show All")
 
   console.log(filter)

@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 
 import './MainPage.css';
 import Navbar from '../Components/Navbar';
@@ -11,6 +11,15 @@ import Bookappoint from "../Components/Bookappoint";
 import { Link } from "react-router-dom";
 
 const MainPage = () => {
+    useEffect(() => {
+        // Ensure any scroll-related issues are handled here
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.margin = '0';
+        document.documentElement.style.margin = '0';
+        document.body.style.padding = '0';
+        document.documentElement.style.padding = '0';
+    }, []);
     return (
         <div className="mainpage">
             <Navbar logo="/MovemendLogo.png"/>

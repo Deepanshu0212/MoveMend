@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import servicedata from '../Data/servicebox'
 import Servicebox from '../Components/Servicebox'
 import Servicedata from '../Components/Servicedata'
@@ -10,6 +10,15 @@ import { Link } from "react-router-dom";
 const Service = () => {
 
   console.log({ servicedata })
+  useEffect(() => {
+    // Ensure any scroll-related issues are handled here
+    document.body.style.overflow = 'auto';
+    document.documentElement.style.overflow = 'auto';
+        document.body.style.margin = '0';
+        document.documentElement.style.margin = '0';
+        document.body.style.padding = '0';
+        document.documentElement.style.padding = '0';
+}, []);
   return (
     <div className="servico">
       <Navbar logo="/MovemendLogo.png" />

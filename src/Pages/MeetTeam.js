@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import {React, useState,useEffect} from "react";
 import '../Pages/MeetTeam.css'
 import Navbar from "../Components/Navbar";
 import MeetCard from '../Components/Meet-Card'
@@ -7,6 +7,15 @@ import Footer from '../Components/Footer'
 import { Link } from "react-router-dom";
 
 function MeetTeam(){
+    useEffect(() => {
+        // Ensure any scroll-related issues are handled here
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.margin = '0';
+        document.documentElement.style.margin = '0';
+        document.body.style.padding = '0';
+        document.documentElement.style.padding = '0';
+    }, []);
     const [filter, setFilter] = useState("all");
 
     function filterCards(category) {

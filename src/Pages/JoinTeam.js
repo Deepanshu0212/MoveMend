@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import './JoinTeam.css'
 import joinData from '../Data/JoinData'
 import Content from "../Components/Content";
@@ -7,6 +7,21 @@ import Footer from '../Components/Footer'
 import { Link } from "react-router-dom"; 
 
 function JoinTeam(){
+
+    // useEffect(() => {
+    //     // Ensure any scroll-related issues are handled here
+    //     document.body.style.overflow = 'auto';
+    //     document.body.style.marginRight = '0px';
+    //     document.documentElement.style.overflowX = 'hidden';
+    // }, []);
+    useEffect(() => {
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.margin = '0';
+        document.documentElement.style.margin = '0';
+        document.body.style.padding = '0';
+        document.documentElement.style.padding = '0';
+    }, []);
     function showhide(num) {
         for (let i = 1; i <= 5; i++) {
             var which = "content" + i;

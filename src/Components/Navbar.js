@@ -22,7 +22,7 @@ function Navbar({logo}){
                 <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/meet-team">Meet Our Team</Link>
+                <Link to="/meet-team" className="nav-link" >Meet Our Team</Link>
                 </li>
                 <li className="nav-item">
                 <Link className="nav-link" to="/join-team">Join Our Team</Link> 
